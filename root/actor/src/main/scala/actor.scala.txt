@@ -1,0 +1,6 @@
+object actor {
+  def hello() = {
+    common.hello()
+    println("Welcome to actor module!!!")
+  }
+}
